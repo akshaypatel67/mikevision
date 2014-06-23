@@ -58,9 +58,9 @@ $publickey = "YOUR_PUBLIC_KEY";
     <!-- SOCIAL -->
     <div id="social">
       <ul>
-        <li class="facebook"><a href="http://www.facebook.com/mscarchilli" rel="external"></a></li>
-        <li class="twitter"><a href="http://twitter.com/#!/Mike_Scarchilli" rel="external"></a></li>
-        <li class="linkedin"><a href="http://www.linkedin.com/in/mscarchilli" rel="external"></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/mscarchilli" rel="external"></a></li>
+        <li class="twitter"><a href="https://twitter.com/Mike_Scarchilli" rel="external"></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/mscarchilli" rel="external"></a></li>
         <li class="github"><a href="https://github.com/mscarchilli" rel="external"></a></li>
         <li class="forrst"><a href="http://forrst.com/people/MikeVision" rel="external"></a></li>
       </ul>
