@@ -1,1 +1,1 @@
-This site is using SASS. Do no edit the main.css file.
+This is my web portfolio webpage. Files have been changed for public viewing.
