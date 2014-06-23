@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MikeVision :: com :: Aww... maaaan... not available?!?!?!</title>
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div id="logo"></div>
+  </header>
+
+  <div id="content">
+    <section>
+      <h2>Channel not available</h2>
+      <p>Bummer... bad request.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2014 MikeVision.com</p>
+  </footer>
+</body>
+</html>

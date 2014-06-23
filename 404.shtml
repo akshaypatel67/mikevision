@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MikeVision :: com :: Hmm... I thought there was something here...</title>
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div id="logo"></div>
+  </header>
+
+  <div id="content">
+    <section>
+      <h2>Bad Channel</h2>
+      <p>Looks like somebody went to a wrong channel... whoops!</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2014 MikeVision.com</p>
+  </footer>
+</body>
+</html>

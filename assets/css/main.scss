@@ -1,0 +1,688 @@
+@import 'partials/reset';
+
+$desktop: 1170px;
+$desktop-med: 970px;
+$tablet: 750px;
+$mobile: 400px;
+
+$grid: 20px;
+
+// Colors //
+$maroon: #800000;
+$maroon-hover: #c46a16;
+$olive: #42411c;
+$orange: #f8b60f;
+
+// Fonts //
+@font-face {
+  font-family: 'Glyphicons';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+// Mixins //
+@mixin button {
+  background: url('../images/bkg-grid-maroon.gif') repeat 0 0;
+  border: 0;
+  border-radius: $grid/4;
+  color: $orange;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  padding: $grid/4 $grid;
+  text-align: center;
+
+  @media screen and (max-width: $tablet) {
+    padding: $grid;
+    width: 100%;
+  }
+
+  &:visited {
+    color: $orange;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &.active {
+    color: #fff;
+    cursor: default;
+  }
+}
+
+// Transitions //
+@mixin open-close-transition {
+  -moz-transition: max-height .7s cubic-bezier(.88, 0, .5, 1);
+  -o-transition: max-height .7s cubic-bezier(.88, 0, .5, 1);
+  -webkit-transition: max-height .7s cubic-bezier(.88, 0, .5, 1);
+  transition: max-height .7s cubic-bezier(.88, 0, .5, 1);
+}
+
+// ---------------------- BASE STYLES //
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:before,
+  :after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+body {
+  background-image: url('../images/bkg_grad.png'), url('../images/bkg.png');
+  background-repeat: repeat-x, repeat;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+header,
+#content,
+footer {
+  background-color: #fff;
+  margin: 0 auto;
+  width: $desktop;
+
+  @media screen and (max-width: $desktop) {
+    width: $tablet;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 100%;
+  }
+}
+
+#content {
+  @media screen and (max-width: $tablet) {
+    padding-top: $grid*2.5;
+  }
+}
+
+section {
+  background-color: #fff;
+  border-bottom: 3px solid #ccc;
+  padding: $grid*2;
+  position: relative;
+  width: 100%;
+
+  &:last-child {
+    border: 0;
+  }
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding: $grid;
+  }
+}
+
+article {
+  padding-top: $grid;
+  position: relative;
+  width: 100%;
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+a {
+  color: $maroon;
+  text-decoration: none;
+
+  &:visited {
+    color: $maroon;
+  }
+
+  &:hover {
+    color: $maroon-hover;
+  }
+}
+
+h2,
+h3 {
+  color: $maroon;
+  font-family: 'Source Code Pro';
+  text-shadow: 2px 2px 4px #ccc;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: $grid;
+
+  @media screen and (max-width: $tablet) {
+    line-height: $grid*1.5;
+  }
+}
+
+h3 {
+  border-bottom: 1px dashed $maroon;
+  font-size: $grid;
+  padding-bottom: $grid/2;
+}
+
+h4 {
+  color: $maroon;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: $grid/5;
+}
+
+h5 {
+  font-weight: bold;
+  margin-top: $grid;
+}
+
+li {
+  line-height: 18px;
+}
+
+button {
+  @include button;
+}
+
+iframe[src='about:blank'] {
+  display: none;
+}
+
+.home {
+  clear: right;
+  float: right;
+  font-size: $grid/2;
+  margin-top: $grid/2;
+
+  a {
+    &:before {
+      content: '\e093';
+      display: inline-block;
+      float: left;
+      font-family: 'Glyphicons';
+      font-weight: bold;
+      height: 19px;
+      width: 17px;
+    }
+  }
+}
+
+// ---------------------- HEADER //
+header {
+  @include open-close-transition;
+
+  background: url('../images/bkg-grid-white.gif') repeat 0 0;
+  border-bottom: 1px dotted $maroon;
+  overflow: hidden;
+  padding: $grid;
+  position: relative;
+  top: 0;
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  @media screen and (max-width: $tablet) {
+    height: auto;
+    max-height: $grid*2.5;
+    padding: $grid/4 $grid $grid;
+    position: absolute;
+    z-index: 999;
+
+    &.open {
+      height: auto;
+      // 3 Nav Items //
+      // max-height: $grid*15.75;
+      // 4 Nav Items //
+      max-height: $grid*19;
+    }
+  }
+}
+
+#logo {
+  background: url('../images/logo.gif') no-repeat 0 0;
+  cursor: pointer;
+  float: left;
+  height: 81px;
+  margin-right: $grid;
+  overflow: hidden;
+  width: 90px;
+
+  &:hover {
+    background-position: 0 -81px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    background-size: $grid*2 auto;
+    height: 36px;
+    width: $grid*2;
+
+    &:hover {
+      background-position: 0 0;
+    }
+  }
+}
+
+// ---------------------- NAV //
+nav {
+  float: left;
+  overflow: hidden;
+  padding-top: $grid*2.5;
+
+  @media screen and (max-width: $tablet) {
+    height: auto;
+    font-size: 18px;
+    padding-top: $grid;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  ul {
+    @media screen and (max-width: $tablet) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 $grid/4;
+
+    @media screen and (max-width: $tablet) {
+      display: block;
+      margin: 0 0 $grid/4;
+    }
+
+    a {
+      @include button;
+    }
+  }
+}
+
+#navbar-toggle,
+#graphics-navbar-toggle {
+  background: url('../images/bkg-grid-maroon.gif') repeat 0 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  padding: 9px $grid/2;
+  position: absolute;
+  right: $grid+-2;
+  top: 2px;
+  z-index: 3;
+
+  @media screen and (max-width: $tablet) {
+    display: block;
+    width: initial;
+  }
+
+  &:hover .icon-bar {
+    background-color: #fff;
+  }
+
+  .icon-bar {
+    background-color: $orange;
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    margin: 3px 0;
+    width: 22px;
+  }
+}
+
+// Social Icons //
+#social {
+  overflow: hidden;
+  padding: 12px $grid/2 0 0;
+  position: absolute;
+  right: $grid/2;
+  top: $grid/2;
+
+  @media screen and (max-width: $tablet) {
+    height: $grid*2.9;
+    top: 0;
+    left: 0;
+    padding: 0;
+    position: relative;
+    right: initial;
+    width: 100%;
+  }
+
+  ul {
+    height: 24px;
+    margin-top: -12px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+  }
+
+  li {
+    background-image: url('../images/social-sprite.png');
+    box-shadow: 2px 2px 2px #ccc;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-filter: grayscale(0);
+    height: 24px;
+    margin-left: $grid/4;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    width: 24px;
+
+    @media screen and (max-width: $tablet) {
+      margin: 0 $grid $grid;
+    }
+
+    &:hover {
+      -webkit-filter: grayscale(100%);
+    }
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.facebook {
+  background-position: 0 0;
+}
+
+.twitter {
+  background-position: -24px 0;
+}
+
+.linkedin {
+  background-position: -48px 0;
+}
+
+.forrst {
+  background-position: -72px 0;
+}
+
+.github {
+  background-position: -96px 0;
+}
+
+// ---------------------- WEB DEVELOPMENT //
+#web-dev {
+  .pill-list {
+    li {
+      background-color: $olive;
+      border-radius: $grid/4;
+      color: #fff;
+      cursor: default;
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 2px;
+      margin: $grid/2 $grid/2 $grid/2 0;
+      padding: $grid/4 $grid/2;
+
+      @media screen and (max-width: $tablet) {
+        font-size: 18px;
+        padding: $grid/2;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+
+  .company {
+    border-bottom: 3px solid #ccc;
+    clear: both;
+    float: left;
+    padding: $grid*2 0;
+    width: 100%;
+
+    &.last {
+      border: 0;
+    }
+  }
+
+  .col-left {
+    float: left;
+    width: 25%;
+
+    img {
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    @media screen and (max-width: $tablet) {
+      margin-bottom: $grid;
+      width: 100%;
+    }
+  }
+
+  .col-right {
+    float: right;
+    padding-left: $grid*2;
+    width: 75%;
+
+    @media screen and (max-width: $tablet) {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-style: italic;
+    margin-bottom: $grid;
+  }
+
+  .description {
+    list-style: disc;
+    margin-left: $grid;
+
+    li {
+      margin-bottom: $grid/2;
+    }
+  }
+
+  .more {
+    clear: left;
+    float: left;
+    font-size: $grid/2;
+    margin-top: $grid/2;
+
+    a {
+      &:before {
+        content: '\e094';
+        display: inline-block;
+        float: left;
+        font-family: 'Glyphicons';
+        font-weight: bold;
+        height: 19px;
+        width: 17px;
+      }
+
+      &.open:before {
+        content: '\e014';
+      }
+    }
+  }
+}
+
+#other-sites {
+  @include open-close-transition;
+
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+
+  &.open {
+    max-height: 9999px;
+  }
+}
+
+// ---------------------- GRAPHICS //
+#graphics {
+  nav {
+    @include open-close-transition;
+
+    margin-bottom: $grid;
+    padding-top: $grid;
+    width: 100%;
+
+    @media screen and (max-width: $tablet) {
+      height: auto;
+      max-height: 0;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      z-index: 999;
+
+      &.open {
+        height: auto;
+        max-height: $grid*15.5;
+      }
+    }
+
+    ul {
+      text-align: left;
+    }
+
+    li {
+      @include button;
+    }
+  }
+}
+
+#graphics-navbar-toggle {
+  top: $grid;
+}
+
+#graphics-container {
+  display: table;
+  text-align: left;
+  width: 100%;
+
+  @media screen and (max-width: $tablet) {
+    text-align: center;
+  }
+
+  li {
+    border: 1px #ccc solid;
+    border-radius: $grid/4;
+    display: inline-table;
+    height: $grid*10.8;
+    margin: $grid/2;
+    margin-bottom: 0;
+    max-height: $grid*10.8;
+    opacity: 0;
+    padding: $grid/4;
+    text-align: center;
+    vertical-align: middle;
+    width: 23%;
+
+    @media screen and (max-width: $desktop) {
+      width: 45%;
+    }
+
+    @media screen and (max-width: $tablet) {
+      border: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    &.display {
+      height: 196px;
+      max-width: 196px;
+      opacity: 1;
+      width: 18%;
+
+      @media screen and (max-width: $desktop) {
+        height: $grid*5.5;
+        width: 17%;
+      }
+
+      @media screen and (max-width: $tablet) {
+        border: 0;
+        padding: 0;
+        width: 100%;
+      }
+    }
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    img {
+      height: auto;
+      max-height: $grid*10;
+      max-width: 100%;
+      width: auto;
+
+      @media screen and (max-width: $tablet) {
+        border: 1px #ccc solid;
+        border-radius: $grid/5;
+        padding: $grid/4;
+      }
+    }
+  }
+}
+
+// ---------------------- CONTACT //
+#contact {
+  label {
+    display: block;
+    margin-bottom: $grid;
+
+    input,
+    textarea {
+      border: 1px solid #a9a9a9;
+      margin-top: $grid/3;
+      max-height: $grid*10;
+      max-width: 100%;
+      min-width: 100%;
+      outline: none;
+      padding: $grid/2;
+      width: 100%;
+
+      &:focus {
+        border: 1px solid $orange;
+        box-shadow: 0 0 5px $orange;
+      }
+    }
+  }
+}
+
+#recaptcha_widget_div,
+#form-message {
+  margin-bottom: $grid;
+}
+
+#form-message {
+  display: none;
+}
+
+// ---------------------- FOOTER //
+footer {
+  background: url('../images/bkg-grid-white.gif') repeat 0 0;
+  border-top: 1px dotted $maroon;
+  padding: $grid*2 0;
+
+  p {
+    text-align: center;
+  }
+}

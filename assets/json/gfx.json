@@ -1,0 +1,341 @@
+{
+  "3d": [
+    {
+      "thumb": "conveyor-01.jpg",
+      "images": [
+        {
+          "name": "Conveyor",
+          "src": "conveyor-01.jpg"
+        },
+        {
+          "name": "Conveyor",
+          "src": "conveyor-02.jpg"
+        },
+        {
+          "name": "Conveyor",
+          "src": "conveyor-03.jpg"
+        },
+        {
+          "name": "Conveyor",
+          "src": "conveyor-04.jpg"
+        },
+        {
+          "name": "Outfeed Conveyor",
+          "src": "outfeed-01.jpg"
+        },
+        {
+          "name": "Outfeed Conveyor",
+          "src": "outfeed-02.jpg"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-01.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-02.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-03.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-04.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-05.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-06.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-07.gif"
+        },
+        {
+          "name": "Tree Saver Film",
+          "src": "treesaver-08.gif"
+        }
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "thumb": "mikevision.jpg",
+      "images": [
+        {
+          "name": "MikeVision Logo",
+          "src": "mikevision.png"
+        },
+        {
+          "name": "Tree Saver",
+          "src": "tree-saver-01.gif"
+        },
+        {
+          "name": "Tree Saver",
+          "src": "tree-saver-02.gif"
+        },
+        {
+          "name": "Tree Saver",
+          "src": "tree-saver-03.gif"
+        },
+        {
+          "name": "Tree Saver",
+          "src": "tree-saver-04.gif"
+        },
+        {
+          "name": "Whitney",
+          "src": "whitney.gif"
+        },
+        {
+          "name": "Protect Your Cans",
+          "src": "protect-your-cans.gif"
+        },
+        {
+          "name": "Pack4Less",
+          "src": "pack4less.gif"
+        },
+        {
+          "name": "Cobra Ink",
+          "src": "cobra-ink.gif"
+        },
+        {
+          "name": "Oremor",
+          "src": "oremor.jpg"
+        },
+        {
+          "name": "Hercules Strapping",
+          "src": "hercules-01.jpg"
+        },
+        {
+          "name": "Hercules Strapping Photo",
+          "src": "hercules-02.jpg"
+        }
+      ]
+    }
+  ],
+  "marketing": [
+    {
+      "thumb": "marketing.jpg",
+      "images": [
+        {
+          "name": "Chilean HASS Avocados Tower Ad",
+          "src": "hass-avocados-01.gif"
+        },
+        {
+          "name": "Malaria No More Tower Ad",
+          "src": "malaria-no-more-01.gif"
+        },
+        {
+          "name": "Malaria No More Tower Ad",
+          "src": "malaria-no-more-02.gif"
+        },
+        {
+          "name": "Hyundai Tower Ad",
+          "src": "hyundai-01.gif"
+        },
+        {
+          "name": "AYSO Section Conference Tower Ad",
+          "src": "ayso-section-conf-01.gif"
+        },
+        {
+          "name": "Chilean HASS Avocados Banner Ad",
+          "src": "hass-avocados-02.gif"
+        },
+        {
+          "name": "Chilean HASS Avocados Banner Ad",
+          "src": "hass-avocados-03.gif"
+        },
+        {
+          "name": "Malaria No More Banner Ad",
+          "src": "malaria-no-more-03.gif"
+        },
+        {
+          "name": "Malaria No More Banner Ad",
+          "src": "malaria-no-more-04.gif"
+        },
+        {
+          "name": "Hyundai Banner Ad",
+          "src": "hyundai-02.gif"
+        },
+        {
+          "name": "Hyundai Banner Ad",
+          "src": "hyundai-03.gif"
+        },
+        {
+          "name": "AYSO Section Conference Banner Ad",
+          "src": "ayso-section-conf-02.gif"
+        },
+        {
+          "name": "AYSO Section Conference Small Ad",
+          "src": "ayso-section-conf-03.gif"
+        },
+        {
+          "name": "Kellogg Banner Ad",
+          "src": "kellogg-02.gif"
+        },
+        {
+          "name": "SWG Ad",
+          "src": "swg-ad.jpg"
+        }
+      ]
+    }
+  ],
+  "art": [
+    {
+      "thumb": "art.jpg",
+      "images": [
+        {
+          "name": "Silly Bunny",
+          "src": "silly-bunny.jpg"
+        },
+        {
+          "name": "Oreo",
+          "src": "oreo-01.jpg"
+        },
+        {
+          "name": "Oreo",
+          "src": "oreo-02.jpg"
+        },
+        {
+          "name": "Love Bug",
+          "src": "love-bug-fractal.jpg"
+        },
+        {
+          "name": "Mad Elephant",
+          "src": "mad-elephant.jpg"
+        },
+        {
+          "name": "Mad Beaver",
+          "src": "mad-beaver.jpg"
+        },
+        {
+          "name": "Mad Bunny",
+          "src": "mad-bunny.jpg"
+        },
+        {
+          "name": "Mad Frog",
+          "src": "mad-frog.jpg"
+        },
+        {
+          "name": "Mad Pig",
+          "src": "mad-pig.jpg"
+        },
+        {
+          "name": "Mad Duck",
+          "src": "mad-duck.jpg"
+        },
+        {
+          "name": "Camera",
+          "src": "camera.jpg"
+        },
+        {
+          "name": "Pencil Eel",
+          "src": "pencil-eel.jpg"
+        },
+        {
+          "name": "Pencil Dog",
+          "src": "pencil-dog.jpg"
+        },
+        {
+          "name": "Pencil Cute Thing",
+          "src": "pencil-cute-thing.jpg"
+        },
+        {
+          "name": "Pencil Blob",
+          "src": "pencil-blob.jpg"
+        },
+        {
+          "name": "Pencil Lion'ish",
+          "src": "pencil-lionish.jpg"
+        },
+        {
+          "name": "Pencil Art",
+          "src": "pencil-06.jpg"
+        },
+        {
+          "name": "Abstract Painting",
+          "src": "abstract-painting.jpg"
+        },
+        {
+          "name": "Charcoal Leaves",
+          "src": "charcoal-leaves.jpg"
+        },
+        {
+          "name": "Ink Mouse",
+          "src": "mouse.jpg"
+        },
+        {
+          "name": "Ink Flower",
+          "src": "flower.jpg"
+        },
+        {
+          "name": "Ink Stipple",
+          "src": "stipple.jpg"
+        },
+        {
+          "name": "Ink Drawing",
+          "src": "ink-01.jpg"
+        },
+        {
+          "name": "Ink Drawing",
+          "src": "ink-02.jpg"
+        },
+        {
+          "name": "Ink Drawing",
+          "src": "ink-03.jpg"
+        },
+        {
+          "name": "Ink Drawing",
+          "src": "ink-04.jpg"
+        },
+        {
+          "name": "Bird",
+          "src": "bird.jpg"
+        },
+        {
+          "name": "Tempo",
+          "src": "tempo.jpg"
+        }
+      ]
+    }
+  ],
+  "miscellaneous": [
+    {
+      "thumb": "misc.jpg",
+      "images": [
+        {
+          "name": "Boxes Compilation",
+          "src": "boxes-compilation.jpg"
+        },
+        {
+          "name": "Can Top",
+          "src": "can-top.jpg"
+        },
+        {
+          "name": "AYSO Flag",
+          "src": "ayso-01.jpg"
+        },
+        {
+          "name": "AYSO Flag",
+          "src": "ayso-02.jpg"
+        },
+        {
+          "name": "AYSO Flag",
+          "src": "ayso-03.jpg"
+        },
+        {
+          "name": "Neway Packaing Postcard Front",
+          "src": "denver-pc-front.jpg"
+        },
+        {
+          "name": "Neway Packaing Postcard Back",
+          "src": "denver-pc-back.jpg"
+        }
+      ]
+    }
+  ]
+}

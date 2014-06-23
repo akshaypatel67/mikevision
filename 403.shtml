@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MikeVision :: com :: The Forbidden Channel</title>
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div id="logo"></div>
+  </header>
+
+  <div id="content">
+    <section>
+      <h2>Forbidden Channel</h2>
+      <p>Sorry, but you do not permission to access this folder  on this server.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2014 MikeVision.com</p>
+  </footer>
+</body>
+</html>
