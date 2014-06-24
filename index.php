@@ -323,7 +323,8 @@ $publickey = "YOUR_PUBLIC_KEY";
           <li>HAML</li>
           <li>CSS</li>
           <li>CSS3</li>
-          <li>SASS</li>
+          <li>SCSS</li>
+          <li>Sass</li>
           <li>LESS</li>
           <li>JavaScript</li>
           <li>jQuery</li>
