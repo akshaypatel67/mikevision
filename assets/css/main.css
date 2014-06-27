@@ -368,7 +368,7 @@ nav li a.active {
   #navbar-toggle,
   #graphics-navbar-toggle {
     display: block;
-    width: initial;
+    width: 44px;
   }
 }
 #navbar-toggle:hover .icon-bar,
