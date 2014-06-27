@@ -23,6 +23,7 @@ $publickey = "YOUR_PUBLIC_KEY";
   <meta property="og:title" content="Michael J. Scarchilli :: Creative Portfolio" />
   <meta property="og:description" content="My name Michael J. Scarchilli and I am a Front-End Web Developer. I also like bunnies... (the cute little fluffy ones with big ears)." />
   <meta property="og:image" content="http://www.mikevision.com/assets/images/share.jpg" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
 
   <script type="text/javascript">
     var RecaptchaOptions = {
