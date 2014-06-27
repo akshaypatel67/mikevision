@@ -361,7 +361,7 @@ nav li a.active {
   padding: 9px 10px;
   position: absolute;
   right: 18px;
-  top: 2px;
+  top: 4px;
   z-index: 3;
 }
 @media screen and (max-width: 750px) {
@@ -645,6 +645,7 @@ nav li a.active {
 @media screen and (max-width: 750px) {
   #graphics-container li {
     border: 0;
+    margin: 10px 0 0;
     padding: 0;
     width: 100%;
   }

@@ -326,7 +326,7 @@ nav {
   padding: 9px $grid/2;
   position: absolute;
   right: $grid+-2;
-  top: 2px;
+  top: 4px;
   z-index: 3;
 
   @media screen and (max-width: $tablet) {
@@ -601,6 +601,7 @@ nav {
 
     @media screen and (max-width: $tablet) {
       border: 0;
+      margin: $grid/2 0 0;
       padding: 0;
       width: 100%;
     }
