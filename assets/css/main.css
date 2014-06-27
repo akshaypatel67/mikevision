@@ -1,3 +1,4 @@
+/*! To view this code expanded, please visit my public repository on Github @ https://github.com/mscarchilli/mikevision */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -627,8 +628,7 @@ nav li a.active {
   border-radius: 5px;
   display: inline-table;
   height: 216px;
-  margin: 10px;
-  margin-bottom: 0;
+  margin: 10px 10px 0;
   max-height: 216px;
   opacity: 0;
   padding: 5px;
@@ -638,6 +638,7 @@ nav li a.active {
 }
 @media screen and (max-width: 1170px) {
   #graphics-container li {
+    margin: 10px 6.66667px 0 10px;
     width: 45%;
   }
 }
@@ -649,22 +650,43 @@ nav li a.active {
   }
 }
 #graphics-container li.display {
-  height: 196px;
-  max-width: 196px;
+  height: 195px;
+  max-width: 195px;
   opacity: 1;
   width: 18%;
 }
 @media screen and (max-width: 1170px) {
   #graphics-container li.display {
-    height: 110px;
+    height: 118px;
+    max-width: 102px;
     width: 17%;
   }
 }
 @media screen and (max-width: 750px) {
   #graphics-container li.display {
     border: 0;
+    display: inline-table;
+    height: 216px;
+    margin-bottom: 20px;
+    max-width: initial;
     padding: 0;
     width: 100%;
+  }
+}
+#graphics-container li.display img {
+  max-height: 179px;
+  max-width: 183px;
+}
+@media screen and (max-width: 1170px) {
+  #graphics-container li.display img {
+    max-height: 102px;
+    max-width: 102px;
+  }
+}
+@media screen and (max-width: 750px) {
+  #graphics-container li.display img {
+    max-height: 200px;
+    max-width: 100%;
   }
 }
 #graphics-container li span {
@@ -674,7 +696,7 @@ nav li a.active {
 #graphics-container li img {
   height: auto;
   max-height: 200px;
-  max-width: 100%;
+  max-width: 240px;
   width: auto;
 }
 @media screen and (max-width: 750px) {
