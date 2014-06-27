@@ -1,3 +1,4 @@
+/*! To view this code expanded, please visit my public repository on Github @ https://github.com/mscarchilli/mikevision */
 @import 'partials/reset';
 
 $desktop: 1170px;
@@ -585,8 +586,7 @@ nav {
     border-radius: $grid/4;
     display: inline-table;
     height: $grid*10.8;
-    margin: $grid/2;
-    margin-bottom: 0;
+    margin: $grid/2 $grid/2 0;
     max-height: $grid*10.8;
     opacity: 0;
     padding: $grid/4;
@@ -595,6 +595,7 @@ nav {
     width: 23%;
 
     @media screen and (max-width: $desktop) {
+      margin: $grid/2 $grid/3 0 $grid/2;
       width: 45%;
     }
 
@@ -605,20 +606,40 @@ nav {
     }
 
     &.display {
-      height: 196px;
-      max-width: 196px;
+      height: 195px;
+      max-width: 195px;
       opacity: 1;
       width: 18%;
 
       @media screen and (max-width: $desktop) {
-        height: $grid*5.5;
+        height: 118px;
+        max-width: 102px;
         width: 17%;
       }
 
       @media screen and (max-width: $tablet) {
         border: 0;
+        display: inline-table;
+        height: $grid*10.8;
+        margin-bottom: $grid;
+        max-width: initial;
         padding: 0;
         width: 100%;
+      }
+
+      img {
+        max-height: 179px;
+        max-width: 183px;
+
+        @media screen and (max-width: $desktop) {
+          max-height: 102px;
+          max-width: 102px;
+        }
+
+        @media screen and (max-width: $tablet) {
+          max-height: $grid*10;
+          max-width: 100%;
+        }
       }
     }
 
@@ -630,7 +651,7 @@ nav {
     img {
       height: auto;
       max-height: $grid*10;
-      max-width: 100%;
+      max-width: 240px;
       width: auto;
 
       @media screen and (max-width: $tablet) {
