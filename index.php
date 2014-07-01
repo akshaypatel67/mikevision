@@ -63,7 +63,6 @@ $publickey = "YOUR_PUBLIC_KEY";
         <li class="twitter"><a href="https://twitter.com/Mike_Scarchilli" rel="external"></a></li>
         <li class="linkedin"><a href="https://www.linkedin.com/in/mscarchilli" rel="external"></a></li>
         <li class="github"><a href="https://github.com/mscarchilli" rel="external"></a></li>
-        <li class="forrst"><a href="http://forrst.com/people/MikeVision" rel="external"></a></li>
       </ul>
     </div>
   </header>
