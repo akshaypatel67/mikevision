@@ -71,6 +71,10 @@
           "src": "mikevision.png"
         },
         {
+          "name": "Global JBS",
+          "src": "global-jbs.png"
+        },
+        {
           "name": "Tree Saver",
           "src": "tree-saver-01.gif"
         },
@@ -191,6 +195,22 @@
         {
           "name": "Silly Bunny",
           "src": "silly-bunny.jpg"
+        },
+        {
+          "name": "CD Insert - Chameleon",
+          "src": "cd-insert-01.png"
+        },
+        {
+          "name": "CD Disc - Chameleon",
+          "src": "cd-disc-01.jpg"
+        },
+        {
+          "name": "CD Insert",
+          "src": "cd-insert-02.png"
+        },
+        {
+          "name": "CD Disc - Clutch",
+          "src": "cd-disc-02.jpg"
         },
         {
           "name": "Oreo",
