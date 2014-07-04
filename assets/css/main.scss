@@ -131,7 +131,7 @@ section {
 }
 
 article {
-  padding-top: $grid;
+  margin-bottom: $grid;
   position: relative;
   width: 100%;
 
@@ -156,16 +156,17 @@ a {
 }
 
 h2,
-h3 {
+h4 {
   color: $maroon;
-  font-family: 'Source Code Pro';
-  text-shadow: 2px 2px 4px #ccc;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: $grid;
+  text-shadow: 2px 2px 2px #ccc;
 
   @media screen and (max-width: $tablet) {
     line-height: $grid*1.5;
@@ -174,14 +175,13 @@ h2 {
 
 h3 {
   border-bottom: 1px dashed $maroon;
+  font-family: 'Patrick Hand', cursive;
   font-size: $grid;
   padding-bottom: $grid/2;
 }
 
 h4 {
-  color: $maroon;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
   margin-bottom: $grid/5;
 }
 
