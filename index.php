@@ -31,7 +31,7 @@ $publickey = "YOUR_PUBLIC_KEY";
     };
   </script>
 
-  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Patrick+Hand|Shadows+Into+Light|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body id="home">
@@ -84,7 +84,7 @@ $publickey = "YOUR_PUBLIC_KEY";
           </div>
           <div class="col-right">
             <h4>Burnside Digital</h4>
-            <p class="location-date">Los Angeles, CA, November 2013 &ndash; June 2014</p>
+            <p class="location-date">Los Angeles, CA, November 2013 &ndash; Current</p>
             <p class="title">Front-End Web Developer (Telecommute, Contract)</p>
             <ul class="description">
               <li>
@@ -443,7 +443,7 @@ $publickey = "YOUR_PUBLIC_KEY";
 
   <!-- FOOTER -->
   <footer>
-    <p>&copy; 2014 MikeVision.com</p>
+    <p>&copy; 2014 MikeVision.com | Michael J. Scarchilli</p>
   </footer>
 
 
@@ -458,7 +458,7 @@ $publickey = "YOUR_PUBLIC_KEY";
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-#######-#');ga('send','pageview');
+    ga('create','UA-3431681-1');ga('send','pageview');
   </script>
 </body>
 </html>
