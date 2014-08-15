@@ -84,7 +84,7 @@ $publickey = "YOUR_PUBLIC_KEY";
           </div>
           <div class="col-right">
             <h4>Burnside Digital</h4>
-            <p class="location-date">Los Angeles, CA, November 2013 &ndash; Current</p>
+            <p class="location-date">Los Angeles, CA, November 2013 &ndash; July 2014</p>
             <p class="title">Front-End Web Developer (Telecommute, Contract)</p>
             <ul class="description">
               <li>
