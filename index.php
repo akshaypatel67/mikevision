@@ -338,6 +338,7 @@ $publickey = "YOUR_PUBLIC_KEY";
           <li>PHP</li>
           <li>Ruby</li>
           <li>Node</li>
+          <li>Grunt</li>
           <li>CoffeeScript</li>
           <li>Mustache</li>
           <li>Handlebars</li>
@@ -371,6 +372,7 @@ $publickey = "YOUR_PUBLIC_KEY";
           <li>CMS</li>
           <li>SEO</li>
           <li>FTP</li>
+          <li>Balsamiq</li>
           <li>Google Hangouts</li>
           <li>and more</li>
         </ul>
