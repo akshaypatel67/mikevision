@@ -77,10 +77,33 @@ $publickey = "YOUR_PUBLIC_KEY";
       <article>
         <h3>Work Experience</h3>
 
+        <!-- Baby Warm -->
+        <div class="company">
+          <div class="col-left">
+            <a href="http://www.babywarm.org" rel="external"><img src="assets/images/web/baby-warm.jpg" alt="Baby Warm" /></a>
+          </div>
+          <div class="col-right">
+            <h4>Baby Warm</h4>
+            <p class="location-date">Los Angeles, CA, May 2014 &ndash; November 2014</p>
+            <p class="title">Front-End Web Developer &ndash; Project Manager (Volunteer)</p>
+            <ul class="description">
+              <li>
+                Responsible for planning and building non-profit crowdfunding Wordpress site
+              </li>
+              <li>
+                Utilized Bootstrap as well as SCSS to build a responsive website.
+              </li>
+              <li>
+                <a href="http://www.babywarm.org" rel="external">Visit site</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <!-- Burnside Digital -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/burnside-digital.jpg" alt="Burnside Digital" />
+            <a href="http://www.burnsidedigital.com/" rel="external"><img src="assets/images/web/burnside-digital.jpg" alt="Burnside Digital" /></a>
           </div>
           <div class="col-right">
             <h4>Burnside Digital</h4>
@@ -106,7 +129,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- Sony Pictures Interactive -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/sony.jpg" alt="Sony Pictures Interactive" />
+            <a href="http://www.sonypictures.com/" rel="external"><img src="assets/images/web/sony.jpg" alt="Sony Pictures Interactive" /></a>
           </div>
           <div class="col-right">
             <h4>Sony Pictures Interactive</h4>
@@ -145,7 +168,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- Meteor Games -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/meteor-games.jpg" alt="Meteor Games" />
+            <a href="http://en.wikipedia.org/wiki/Meteor_Games" rel="external"><img src="assets/images/web/meteor-games.jpg" alt="Meteor Games" /></a>
           </div>
           <div class="col-right">
             <h4>Meteor Games LLC</h4>
@@ -174,7 +197,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- AYSO -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/ayso.jpg" alt="American Youth Soccer Organization" />
+            <a href="http://www.ayso.org/" rel="external"><img src="assets/images/web/ayso.jpg" alt="American Youth Soccer Organization" /></a>
           </div>
           <div class="col-right">
             <h4>American Youth Soccer Organization (AYSO)</h4>
@@ -203,7 +226,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- Neway Packaging -->
         <div class="company last">
           <div class="col-left">
-            <img src="assets/images/web/newaypkg.jpg" alt="Neway Packaging" />
+            <a href="http://newaypkg.com/" rel="external"><img src="assets/images/web/newaypkg.jpg" alt="Neway Packaging" /></a>
           </div>
           <div class="col-right">
             <h4>Neway Packaging Corp.</h4>
@@ -238,7 +261,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- Leda Takacs Portfolio -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/leda-takacs.jpg" alt="Leda Takacs Portfolio" />
+            <a href="http://www.ledatakacs.com/" rel="external"><img src="assets/images/web/leda-takacs.jpg" alt="Leda Takacs Portfolio" /></a>
           </div>
           <div class="col-right">
             <h4>Leda Takacs Portfolio</h4>
@@ -261,7 +284,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- XFIRE -->
         <div class="company">
           <div class="col-left">
-            <img src="assets/images/web/xfire.jpg" alt="XFIRE" />
+            <a href="http://www.xfire.com/" rel="external"><img src="assets/images/web/xfire.jpg" alt="XFIRE" /></a>
           </div>
           <div class="col-right">
             <h4>XFIRE</h4>
@@ -281,7 +304,7 @@ $publickey = "YOUR_PUBLIC_KEY";
         <!-- Breakfast In Beverly Hills -->
         <div class="company last">
           <div class="col-left">
-            <img src="assets/images/web/breakfast-in-bh.jpg" alt="Breakfast In Beverly Hills" />
+            <a href="http://www.mcsaatchi.com/" rel="external"><img src="assets/images/web/breakfast-in-bh.jpg" alt="Breakfast In Beverly Hills" /></a>
           </div>
           <div class="col-right">
             <h4>Breakfast In Beverly Hills</h4>
